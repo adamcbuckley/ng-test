@@ -4,7 +4,7 @@ import { Component } from "@angular/core";
   selector: "lib-mylib",
   standalone: true,
   imports: [],
-  template: `<h1>mylib works!</h1>`,
+  template: `<p>Hello from mylib</p>`,
   styles: ``,
 })
 export class MylibComponent {}
