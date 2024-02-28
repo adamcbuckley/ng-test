@@ -1,9 +1,7 @@
 {
   "name": "angular-workspace",
   "scripts": {
-    "clean": "rimraf dist .angular",
-    "start": "ng serve",
-    "build": "ng build mylib && ng build myapp",
+    "build": "rimraf dist .angular && ng build mylib",
     "watch-mylib": "ng build mylib --watch --configuration development"
   },
   "private": true,
